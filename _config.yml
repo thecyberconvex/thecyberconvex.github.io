@@ -1,11 +1,11 @@
-title: Oasis
+title: The Cyber Convex
 
 description: >-
-  a jekyll site template for Codrops.
+  Company website 2020.
 baseurl: ""
 url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: thecyberconvex
+github_username:  thecyberconvex
 
 # Build settings
 markdown: kramdown
