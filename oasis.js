@@ -24,7 +24,7 @@ function setActiveLink(event, buttons) {
 }
 
 function smoothScrollTo(i, buttons, event) {
-  var element = sections[i - 1] || sections[i - 8];
+  var element = sections[i - 1] || sections[i - 7];
   setActiveLink(event, buttons);
 
   if (mobileList.classList.contains("show")) {

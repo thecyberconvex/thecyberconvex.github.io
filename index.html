@@ -5,7 +5,7 @@ nav:
   - name: home
     link: '/'
   - name: about
-    link: '#section-hero'
+    link: '#section-summary'
   - name: what we offer
     link: '#section-snippets'    
   - name: features
@@ -110,7 +110,7 @@ section-contact:
     </div>
   </div>
 </section>
-<section class="section--summary">
+<section class="section--summary js-section">
   <div class="flex--vertical">
     <div class="flex_child--vertical flex--horizontal summary__lists">
       {% for list in page.section-summary.list %}
@@ -167,7 +167,7 @@ section-contact:
     </div>
   </div>
 </section>
-<section class="section--stats scroll-to-reveal js-section">
+<section class="section--stats scroll-to-reveal">
   <div class="section__title">
     <h3 class="font-fjalla">{{ page.section-stats.title }}</h3>
     <p>{{ page.section-stats.description }}</p>
@@ -184,7 +184,7 @@ section-contact:
     </div>
   {% endfor %}
 </section>
-<section class="section--integrations js-section">
+<section class="section--integrations">
   <div class="section__title">
     <h3 class="font-fjalla">{{ page.section-integrations.title }}</h3>
   </div>
