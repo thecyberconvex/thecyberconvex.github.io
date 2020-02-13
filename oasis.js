@@ -53,11 +53,12 @@ new Waypoint({
   handler: function(direction) {
     if (direction === "down") {
       document.querySelector("nav").classList.add("fixed");
-    } else {
+    }
+    else {
       document.querySelector("nav").classList.remove("fixed");
     }
   },
-  offset: -80
+  offset: -30 //original: -80
 });
 
 if (btns.length && sections.length > 0) {
